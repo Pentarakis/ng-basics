@@ -18,12 +18,14 @@ import {
   MatInputModule,
   MatButtonModule
 } from '@angular/material';
+import { CharacterDetailsComponent } from './character/character-details/character-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterComponent,
-    CharacterListComponent
+    CharacterListComponent,
+    CharacterDetailsComponent
   ],
   imports: [
     BrowserModule,
